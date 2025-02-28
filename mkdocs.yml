@@ -13,6 +13,15 @@ theme:
     - scheme: qc-piv
 extra_css:
   - stylesheets/extra.css
+      toggle:
+        icon: material/brightness-7
+        name: Basculer en mode sombre
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Basculer en mode clair
 
 nav:
   - Accueil: index.md
