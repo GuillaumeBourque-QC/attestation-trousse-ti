@@ -11,8 +11,6 @@ theme:
     - navigation.top
   palette:
     - scheme: qc-piv
-extra_css:
-  - stylesheets/extra.css    
       primary: custom
       accent: custom
       toggle:
