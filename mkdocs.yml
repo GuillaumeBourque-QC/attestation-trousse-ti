@@ -10,7 +10,9 @@ theme:
     - navigation.sections
     - navigation.top
   palette:
-    - scheme: default
+    - scheme: qc-piv
+extra_css:
+  - stylesheets/extra.css    
       primary: custom
       accent: custom
       toggle:
