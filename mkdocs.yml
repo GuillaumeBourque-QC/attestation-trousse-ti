@@ -11,8 +11,6 @@ theme:
     - navigation.top
   palette:
     - scheme: qc-piv
-extra_css:
-  - stylesheets/extra.css
       toggle:
         icon: material/brightness-7
         name: Basculer en mode sombre
@@ -22,6 +20,9 @@ extra_css:
       toggle:
         icon: material/brightness-4
         name: Basculer en mode clair
+extra_css:
+  - stylesheets/extra.css
+
 
 nav:
   - Accueil: index.md
