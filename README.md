@@ -10,4 +10,4 @@ l'inspiration vient des travaux fait ici : https://bcgov.github.io/digital-trust
 
 ## Personnalisation
 
-le theme est basé sur [Material](https://squidfunk.github.io/mkdocs-material/)
+le theme est basé sur [Material](https://squidfunk.github.io/mkdocs-material/).
