@@ -1,6 +1,8 @@
 site_name: Troussse TI pour les Attestations
 repo_url: https://github.com/GuillaumeBourque-QC/trousse-techno
 repo_name: GuillaumeBourque-QC/trousse-techno
+extra_css:
+  - extra.css
 
 theme:
   name: material
