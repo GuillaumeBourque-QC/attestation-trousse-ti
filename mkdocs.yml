@@ -11,12 +11,13 @@ theme:
     - navigation.top
   palette:
     - scheme: qc-piv
+      primary: custom
       toggle:
         icon: material/brightness-7
         name: Basculer en mode sombre
-    - scheme: slate
-      primary: blue
-      accent: light blue
+    - scheme: qc-piv-sombre
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Basculer en mode clair
