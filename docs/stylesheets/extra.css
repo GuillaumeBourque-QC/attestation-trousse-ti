@@ -1,8 +1,22 @@
 [data-md-color-scheme="qc-piv"] {
-  --md-primary-fg-color:        #095797;
-  --md-primary-fg-color--light: #4A98D9;
-  --md-primary-fg-color--dark:  #223654;
+  --md-primary-fg-color:        #095797;  /* Principale/Bleu PIV - Bleu 300 */
+  --md-primary-fg-color--light: #4A98D9;  /* Principale/Bleu clair - Bleu 500 */
+  --md-primary-fg-color--dark:  #223654;  /* Principale/Bleu foncé - Bleu 150 */
+  --md-accent-fg-color:         #E58271;  /* Accent/Rose - Rouge 350 */
 }
+
+/* Custom dark mode theme */
+[data-md-color-scheme="qc-piv-sombre"] {
+  --md-primary-fg-color:        #72B2EB; /* Principale/Bleu PIV - Bleu 300 */
+  --md-primary-fg-color--light: #0078CC; /* Principale/Bleu clair - Bleu 500 */
+  --md-primary-fg-color--dark:  #C6DBEE; /* Principale/Bleu foncé - Bleu 150 */
+
+  /* Optional: Adjust accent colors for contrast */
+  --md-accent-fg-color:         #F17B6C;  /* Accent/Rose - Rouge 350 */
+/*  --md-accent-bg-color:         #C6DBEE; */
+}
+
+
 
 @font-face {
   font-family: "roboto";
