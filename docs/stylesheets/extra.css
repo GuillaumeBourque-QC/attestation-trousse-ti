@@ -33,15 +33,54 @@
   --md-heading-font: "Roboto", sans-serif;
 }
 
-/* Ensure text elements are properly colored */
-[data-md-color-scheme="qc-piv-sombre"] body,
-[data-md-color-scheme="qc-piv-sombre"] .md-typeset {
-  color: var(--md-typeset-color);
+/* Apply text color to body and main content */
+[data-md-color-scheme="qc-piv"] body,
+[data-md-color-scheme="qc-piv"] .md-typeset,
+[data-md-color-scheme="qc-piv"] .md-content {
+  color: var(--md-typeset-color) !important;
 }
 
-/* Improve contrast for sidebar links */
+[data-md-color-scheme="qc-piv-sombre"] body,
+[data-md-color-scheme="qc-piv-sombre"] .md-typeset,
+[data-md-color-scheme="qc-piv-sombre"] .md-content {
+  color: var(--md-typeset-color) !important;
+}
+
+/* Ensure headings have the correct color */
+[data-md-color-scheme="qc-piv"] .md-typeset h1,
+[data-md-color-scheme="qc-piv"] .md-typeset h2,
+[data-md-color-scheme="qc-piv"] .md-typeset h3,
+[data-md-color-scheme="qc-piv"] .md-typeset h4,
+[data-md-color-scheme="qc-piv"] .md-typeset h5,
+[data-md-color-scheme="qc-piv"] .md-typeset h6 {
+  color: #223654 !important;
+}
+
+[data-md-color-scheme="qc-piv-sombre"] .md-typeset h1,
+[data-md-color-scheme="qc-piv-sombre"] .md-typeset h2,
+[data-md-color-scheme="qc-piv-sombre"] .md-typeset h3,
+[data-md-color-scheme="qc-piv-sombre"] .md-typeset h4,
+[data-md-color-scheme="qc-piv-sombre"] .md-typeset h5,
+[data-md-color-scheme="qc-piv-sombre"] .md-typeset h6 {
+  color: #C6DBEE !important;
+}
+
+/* Fix Table des matières color */
+[data-md-color-scheme="qc-piv"] .md-sidebar .md-nav__title {
+  color: #223654 !important;
+}
+
+[data-md-color-scheme="qc-piv-sombre"] .md-sidebar .md-nav__title {
+  color: #C6DBEE !important;
+}
+
+/* Ensure sidebar links have good contrast */
+[data-md-color-scheme="qc-piv"] .md-nav__link {
+  color: #223654 !important;
+}
+
 [data-md-color-scheme="qc-piv-sombre"] .md-nav__link {
-  color: #D7D8DD;
+  color: #C6DBEE !important;
 }
 
 /* Import Google Fonts */
