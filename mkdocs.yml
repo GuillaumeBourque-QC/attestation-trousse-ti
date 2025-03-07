@@ -4,6 +4,7 @@ repo_name: GuillaumeBourque-QC/trousse-techno
 
 theme:
   name: material
+  logo: assets/Québec_blanc.svg
   language: fr
   features:
     - navigation.tabs
