@@ -5,7 +5,11 @@
   --md-primary-fg-color--dark:  #223654;  /* Principale/Bleu foncé - Bleu 150 */
   --md-accent-fg-color:         #E58271;  /* Accent/Rose - Rouge 350 */
 
-/* Set fonts */
+  /* Text Colors */
+  --md-default-fg-color: #223654;  /* Main text color */
+  --md-typeset-color:    #223654;  /* Ensures all text uses the same color */
+  
+  /* Set fonts */
   --md-text-font: "Open Sans", sans-serif;
   --md-code-font: "Roboto Mono", monospace;
   --md-heading-font: "Roboto", sans-serif;
@@ -20,8 +24,8 @@
   
   /* Background and text color */
   --md-default-bg-color: #121519;  /* Dark background */
-  --md-typeset-color:    #D7D8DD;  /* Light text */
-  --md-default-fg-color: #D7D8DD;  /* Ensure text is light */
+  --md-default-fg-color: #C6DBEE;  /* Main text color */
+  --md-typeset-color:    #C6DBEE;  /* Ensures all text uses the same color */
   
   /* Set fonts */
   --md-text-font: "Open Sans", sans-serif;
