@@ -20,13 +20,24 @@
   
   /* Background and text color */
   --md-default-bg-color: #121519;  /* Dark background */
-  --md-default-fg-color: #D7D8DD;  /* Light text */
+  --md-typeset-color:    #D7D8DD;  /* Light text */
+  --md-default-fg-color: #D7D8DD;  /* Ensure text is light */
   
   /* Set fonts */
   --md-text-font: "Open Sans", sans-serif;
   --md-code-font: "Roboto Mono", monospace;
   --md-heading-font: "Roboto", sans-serif;
+}
 
+/* Ensure text elements are properly colored */
+[data-md-color-scheme="qc-piv-sombre"] body,
+[data-md-color-scheme="qc-piv-sombre"] .md-typeset {
+  color: var(--md-typeset-color);
+}
+
+/* Improve contrast for sidebar links */
+[data-md-color-scheme="qc-piv-sombre"] .md-nav__link {
+  color: #D7D8DD;
 }
 
 /* Import Google Fonts */
